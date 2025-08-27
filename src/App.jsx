@@ -34,7 +34,12 @@ const App = () => {
     <ThemeProvider>
       <div>
   <h1>⚛️ React Learning Playground</h1>
-  <nav style={{ marginBottom: "20px" }}>
+  <nav style={{
+      marginBottom: "20px",
+      display: "grid",
+      gap: "10px",
+      gridTemplateColumns: "repeat(auto-fit, minmax(150px, 1fr))",
+    }}>
     {demos.map((demo, i) => (
       <button
         key={i}
