@@ -33,7 +33,7 @@ const App = () => {
   return (
     <ThemeProvider>
       <div>
-  <h1 style={{ textAlign: "center" }}>⚛️ React Learning Playground</h1>
+  <h1 style={{ textAlign: "center", backgroundColor: "#499ef8ff", color: "#fff", padding: "10px", borderRadius: "5px", margin: "10px -10px" }}>⚛️ React Learning Playground</h1>
   <nav style={{
       marginBottom: "20px",
       display: "grid",
